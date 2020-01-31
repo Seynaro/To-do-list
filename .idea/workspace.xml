@@ -3,13 +3,18 @@
   <component name="ChangeListManager">
     <list default="true" id="27f82b65-3c52-425c-92b9-ff636dd81632" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TodoListTasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoListTasks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodoListFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoListFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodoListHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoListHeader.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="toDoList" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -26,11 +31,11 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -65,18 +70,18 @@
       <workItem from="1578929653133" duration="570000" />
       <workItem from="1579534374443" duration="1528000" />
       <workItem from="1579537169517" duration="600000" />
-      <workItem from="1579608217847" duration="4719000" />
+      <workItem from="1579608217847" duration="6329000" />
+      <workItem from="1579622379980" duration="3599000" />
+      <workItem from="1579799578534" duration="3251000" />
+      <workItem from="1579945959642" duration="23000" />
+      <workItem from="1580033802287" duration="1681000" />
+      <workItem from="1580043122888" duration="45000" />
+      <workItem from="1580138257415" duration="5612000" />
+      <workItem from="1580230902504" duration="30000" />
+      <workItem from="1580400731050" duration="966000" />
+      <workItem from="1580483785634" duration="71000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -110,5 +115,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create header/tasks/footer components" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1580483821964">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1580483821964" />
+    <state x="0" y="61" width="1279" height="738" key="SettingsEditor" timestamp="1580035483773">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="0" y="61" width="1279" height="738" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1580035483773" />
   </component>
 </project>
