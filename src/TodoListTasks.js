@@ -3,17 +3,17 @@ import './App.css';
 import TodoListTask from "./TodoListTask";
 
 class TodoListTasks extends React.Component {
+
+
     render = () => {
         let tasksElements = this.props.tasks.map(task => <TodoListTask
-            title={task.title}
-            isDone={task.isDone}
-            priority={task.priority}
-        />
+            task={task}
+            changeStatus={this.props.changeStatus}/>
         );
         return (
-                <div className="todoList-tasks">
-                    {tasksElements}
-                </div>
+            <div className="todoList-tasks">
+                {tasksElements}
+            </div>
         );
     }
 }
