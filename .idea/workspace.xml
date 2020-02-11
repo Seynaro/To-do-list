@@ -4,9 +4,8 @@
     <list default="true" id="27f82b65-3c52-425c-92b9-ff636dd81632" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TodoListFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoListFooter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TodoListHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoListHeader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodoListTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoListTask.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,8 +83,16 @@
       <workItem from="1580729496371" duration="754000" />
       <workItem from="1580802185602" duration="11137000" />
       <workItem from="1580885269760" duration="1201000" />
-      <workItem from="1581406872665" duration="6671000" />
+      <workItem from="1581406872665" duration="11981000" />
     </task>
+    <task id="LOCAL-00001" summary="add hide/show">
+      <created>1581418170064</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581418170064</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,8 +127,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create header/tasks/footer components" />
+    <MESSAGE value="add hide/show" />
+    <option name="LAST_COMMIT_MESSAGE" value="add hide/show" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1147" y="114" key="CommitChangelistDialog2" timestamp="1581418168864">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1147" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581418168864" />
     <state x="696" y="223" key="FileChooserDialogImpl" timestamp="1580888839735">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -147,5 +160,9 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="0" y="61" width="1279" height="738" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1580035483773" />
+    <state x="1104" y="253" key="Vcs.Push.Dialog.v2" timestamp="1581418173804">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1104" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1581418173804" />
   </component>
 </project>
