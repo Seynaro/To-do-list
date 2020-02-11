@@ -3,12 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="27f82b65-3c52-425c-92b9-ff636dd81632" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TodoListFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoListFooter.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TodoListHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoListHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TodoListTask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoListTask.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TodoListTasks.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TodoListTasks.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +83,8 @@
       <workItem from="1580483785634" duration="71000" />
       <workItem from="1580729496371" duration="754000" />
       <workItem from="1580802185602" duration="11137000" />
+      <workItem from="1580885269760" duration="1201000" />
+      <workItem from="1581406872665" duration="6671000" />
     </task>
     <servers />
   </component>
@@ -122,10 +122,11 @@
     <MESSAGE value="create header/tasks/footer components" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1580483821964">
-      <screen x="0" y="0" width="1600" height="860" />
+    <state x="696" y="223" key="FileChooserDialogImpl" timestamp="1580888839735">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1580483821964" />
+    <state x="696" y="223" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580888839735" />
     <state width="1898" height="277" key="GridCell.Tab.0.bottom" timestamp="1580732203554">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
