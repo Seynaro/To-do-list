@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
+import TodolistTitle from "./TodolistTitle";
 
-class TodoListHeader extends React.Component {
+class AddNewItemForm extends React.Component {
 
     state = {
         error: false,
@@ -11,14 +12,14 @@ class TodoListHeader extends React.Component {
 
     newTaskTitleRef = React.createRef();
 
-    onAddTaskButtonClick = () => {
+    onAddItemClick = () => {
         let newTitle = this.state.title;
         this.setState({title: ""})
         if (newTitle === "") {
             this.setState({error: true})
         } else {
             this.setState({error: false});
-            this.props.addTask(newTitle);
+            this.props.addItem(newTitle);
         }
     };
 
@@ -30,9 +31,9 @@ class TodoListHeader extends React.Component {
             })
     };
 
-    onAddTaskEnterPress = (e) => {
+    onKeyPress = (e) => {
         if (e.key === "Enter") {
-            this.onAddTaskButtonClick()
+            this.onAddItemClick()
         }
     };
 
@@ -40,22 +41,22 @@ class TodoListHeader extends React.Component {
         let classForInput = (this.state.error) ? "error" : "";
         return (
             <div className="todoList-header">
-                <h3 className="todoList-header__title">What to Learn</h3>
+
                 <div className="todoList-newTaskForm">
                     <input
                         value={this.state.title}
                         onChange={this.onTitleChanged}
                         type="text"
-                        placeholder="New task name"
+                        placeholder="New item name"
                         className={classForInput}
-                        onKeyPress={this.onAddTaskEnterPress}
+                        onKeyPress={this.onKeyPress}
                     />
-                    <button onClick={this.onAddTaskButtonClick}>Add</button>
+                    <button onClick={this.onAddItemClick}>Add</button>
                 </div>
             </div>
         );
     }
 }
 
-export default TodoListHeader;
+export default AddNewItemForm;
 

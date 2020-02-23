@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="27f82b65-3c52-425c-92b9-ff636dd81632" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TodoListHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddNewItemForm.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +113,7 @@
       <workItem from="1582038453256" duration="105000" />
       <workItem from="1582349604557" duration="8596000" />
       <workItem from="1582435031766" duration="613000" />
-      <workItem from="1582435920629" duration="1534000" />
+      <workItem from="1582435920629" duration="8794000" />
     </task>
     <task id="LOCAL-00001" summary="add hide/show">
       <created>1581418170064</created>
@@ -127,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582358774557</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create Todolist component">
+      <created>1582437931789</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582437931789</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,38 +173,39 @@
     <MESSAGE value="create header/tasks/footer components" />
     <MESSAGE value="add hide/show" />
     <MESSAGE value="add save/restore in LocalStorage" />
-    <option name="LAST_COMMIT_MESSAGE" value="add save/restore in LocalStorage" />
+    <MESSAGE value="create Todolist component" />
+    <option name="LAST_COMMIT_MESSAGE" value="create Todolist component" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="788" y="47" key="CommitChangelistDialog2" timestamp="1582358772401">
+    <state x="788" y="47" key="CommitChangelistDialog2" timestamp="1582437929227">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="788" y="47" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1582358772401" />
+    <state x="788" y="47" key="CommitChangelistDialog2/0.0.1600.860@0.0.1600.860" timestamp="1582437929227" />
     <state x="1147" y="114" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1581418168864" />
     <state x="580" y="184" key="FileChooserDialogImpl" timestamp="1582038558033">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="580" y="184" key="FileChooserDialogImpl/0.0.1600.860@0.0.1600.860" timestamp="1582038558033" />
     <state x="696" y="223" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580888839735" />
-    <state width="679" height="213" key="GridCell.Tab.0.bottom" timestamp="1582437458019">
+    <state width="731" height="213" key="GridCell.Tab.0.bottom" timestamp="1582476945087">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="679" height="213" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1582437458019" />
+    <state width="731" height="213" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1582476945087" />
     <state width="1898" height="277" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1580732203554" />
-    <state width="679" height="213" key="GridCell.Tab.0.center" timestamp="1582437458019">
+    <state width="731" height="213" key="GridCell.Tab.0.center" timestamp="1582476945087">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="679" height="213" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1582437458019" />
+    <state width="731" height="213" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1582476945087" />
     <state width="1898" height="277" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1580732203554" />
-    <state width="679" height="213" key="GridCell.Tab.0.left" timestamp="1582437458019">
+    <state width="731" height="213" key="GridCell.Tab.0.left" timestamp="1582476945087">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="679" height="213" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1582437458019" />
+    <state width="731" height="213" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1582476945087" />
     <state width="1898" height="277" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1580732203554" />
-    <state width="679" height="213" key="GridCell.Tab.0.right" timestamp="1582437458019">
+    <state width="731" height="213" key="GridCell.Tab.0.right" timestamp="1582476945087">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="679" height="213" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1582437458019" />
+    <state width="731" height="213" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1582476945087" />
     <state width="1898" height="277" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1580732203554" />
     <state x="0" y="61" width="1279" height="738" key="SettingsEditor" timestamp="1580035483773">
       <screen x="0" y="0" width="1600" height="860" />

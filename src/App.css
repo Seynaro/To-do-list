@@ -4,8 +4,7 @@
 }
 
 .todoList {
-  width: 500px;
-  margin: 0 auto;
+  width: 300px;
 }
 
 .todoList > div {
@@ -25,7 +24,4 @@
 
 .todoList-task.done {
   opacity: 0.5;
-}
-.todolist {
-  width: 300px;
 }
